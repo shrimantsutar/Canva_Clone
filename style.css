@@ -1,0 +1,562 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Canva Sans, Noto Sans Variable, Noto Sans, -apple-system,
+    BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif;
+}
+header {
+  background-color: rgb(255, 255, 255);
+  min-height: 10vh;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid gray;
+  box-shadow: 1px 0px 7px 0px;
+  position: sticky;
+  top: 0px;
+}
+
+nav.nav1 {
+  width: 50%;
+}
+
+nav.nav2 {
+  width: 50%;
+}
+
+ul.firstlist {
+  display: flex;
+  justify-content: flex-start;
+  gap: 30px;
+  margin: 0px 45px;
+  align-items: center;
+  font-family: Canva Sans, Noto Sans Variable, Noto Sans, -apple-system,
+    BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif;
+}
+
+ul.secondlist {
+  display: flex;
+  justify-content: flex-end;
+  gap: 30px;
+  margin: 0px 45px;
+  align-items: center;
+  font-family: Canva Sans, Noto Sans Variable, Noto Sans, -apple-system,
+    BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif;
+}
+
+ul.firstlist li {
+  list-style: none;
+  cursor: pointer;
+  padding: 4px 0px;
+}
+
+ul.firstlist li:hover {
+  background-color: #d7d7d7;
+}
+
+ul.secondlist li {
+  list-style: none;
+  cursor: pointer;
+}
+
+ul.secondlist li button {
+  padding: 8px 10px;
+  cursor: pointer;
+  border: 0px;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-family: Canva Sans, Noto Sans Variable, Noto Sans, -apple-system,
+    BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif;
+}
+ul.secondlist li button:hover {
+  background-color: #e7e3e3;
+}
+ul.secondlist li .btn2 {
+  background-color: #8b3dff;
+  color: white;
+  border: 0px;
+  border-radius: 4px;
+  font-family: Canva Sans, Noto Sans Variable, Noto Sans, -apple-system,
+    BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif;
+  font-weight: 500;
+}
+ul.secondlist li .btn2:hover {
+  background-color: #8b3dffd0;
+}
+/* Header css End */
+.containermain {
+  min-height: 100vh;
+}
+
+section.sfirst p {
+  font-size: 1.2rem;
+}
+section.sfirst {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+
+  font-size: 1.8rem;
+  line-height: 2.4rem;
+  font-family: Canva Sans, Noto Sans Variable, Noto Sans, -apple-system,
+    BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif;
+}
+section.sfirst button {
+  margin: 1px 0px;
+  padding: 11px 11px;
+  background-color: #8b3dff;
+  color: white;
+  cursor: pointer;
+  border: 0px;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: 600;
+}
+section.sfirst button:hover {
+  background-color: #8b3dffd0;
+}
+section.sfirst h1 {
+  margin-top: 35px;
+  font-weight: 700;
+}
+.zBWJ7A {
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-image: linear-gradient(90deg, #00c4cc, #7d2ae8);
+  color: transparent;
+  font-style: normal;
+}
+
+.cardsfirst {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  font-size: 1.8rem;
+  line-height: 2.4rem;
+  align-content: center;
+}
+
+.cardsfirst img {
+  width: 230px;
+  object-fit: fill;
+  height: 270px;
+  border: 0px solid;
+  border-radius: 19px;
+}
+
+/* //section first end  */
+
+section.ssecond {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  gap: 34px;
+}
+.items {
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+  align-items: center;
+}
+.caredssecond {
+  width: 372px;
+  height: 225px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 20px 20px;
+  align-content: center;
+  font-size: 1.2;
+  font-family: Canva Sans, Noto Sans Variable, Noto Sans, -apple-system,
+    BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+.ssecond h2 {
+  margin-top: 50px;
+  /* margin-bottom: 0px; */
+  font-size: 2rem;
+  font-weight: 600;
+}
+.ssecond span {
+  font-family: Canva Sans, Noto Sans Variable, Noto Sans, -apple-system,
+    BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif;
+}
+
+.logos img {
+  height: 60px;
+}
+
+.caredssecond button {
+  padding: 10px;
+  background-color: #8b3dff;
+  color: white;
+  font-weight: 700;
+  font-family: Canva Sans, Noto Sans Variable, Noto Sans, -apple-system,
+    BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif;
+  border: 0px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.logos {
+  display: flex;
+  justify-content: space-evenly;
+  /* background: radial-gradient(black, transparent); */
+  width: 100%;
+}
+
+/* //section second end  */
+.containerthird {
+  display: flex;
+  justify-content: space-evenly;
+}
+.item1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 34%;
+  gap: 15px;
+  font-size: 20px;
+}
+.item1 p {
+  line-height: 2rem;
+}
+
+.item1 button {
+  padding: 12px 20px;
+  cursor: pointer;
+}
+
+.containerthird .img img {
+  margin-top: 34px;
+  width: 600px;
+}
+
+section.sfourth {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 34px;
+  align-items: center;
+  font-size: 1.5rem;
+  line-height: 2.2rem;
+  font-family: Canva Sans, Noto Sans Variable, Noto Sans, -apple-system,
+    BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif;
+}
+
+section.sfourth h2 {
+  margin-top: 80px;
+}
+
+section.sfourth p {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.containerfourth {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  /* justify-content: space-around; */
+  align-items: center;
+  justify-items: center;
+  /* grid-auto-columns: max-content; */
+}
+
+.containerfourth img {
+  width: 200px;
+  border: 0px;
+  border-radius: 18px;
+}
+
+.btn {
+  padding: 12px 20px;
+  cursor: pointer;
+  font-family: Canva Sans, Noto Sans Variable, Noto Sans, -apple-system,
+    BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif;
+  border: 0px;
+  font-weight: 500;
+  border-radius: 5px;
+}
+
+/* section fourth end  */
+
+section.sfifth {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  /* width: 100%; */
+  gap: 34px;
+  font-size: 1.4rem;
+  line-height: 2.2rem;
+}
+section.sfifth h2 {
+  margin-top: 90px;
+}
+section.sfifth p {
+  font-weight: 200;
+  font-size: 1.2rem;
+  width: 37%;
+  text-align: center;
+}
+section.sfifth button {
+  padding: 11px 20px;
+  background-color: #8b3dff;
+  color: white;
+  font-weight: 600;
+  font-family: Canva Sans, Noto Sans Variable, Noto Sans, -apple-system,
+    BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif;
+  cursor: pointer;
+  border: 0px;
+  border-radius: 5px;
+}
+
+.containerfifth {
+  display: flex;
+  justify-content: center;
+  /* width: 100%; */
+  font-size: 1.2rem;
+  line-height: 2.2rem;
+  line-height: 5.3rem;
+}
+.containerfifth ul li {
+  list-style: none;
+}
+.video video {
+  width: 500px;
+}
+
+/* section fifith end  */
+section.ssix {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+}
+section.ssix h2 {
+  margin-bottom: 25px;
+  margin-top: 100px;
+}
+.containersix {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.sixitems {
+  width: 19%;
+  margin: 34px 0px;
+  font-size: 1rem;
+  border: 0px solid;
+  border-radius: 12px;
+  min-height: 50vh;
+}
+.sixitems img {
+  width: 300px;
+}
+
+footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  justify-items: center;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  min-height: 60vh;
+  font-family: Canva Sans, Noto Sans Variable, Noto Sans, -apple-system,
+    BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif;
+}
+
+.itemsfooter {
+  line-height: 2rem;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.footerend {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  min-height: 15vh;
+  font-size: 1.2rem;
+}
+.footerend button {
+  padding: 10px 30px;
+  cursor: pointer;
+}
+.footerendmd {
+  text-align: center;
+}
+.socialicon {
+  cursor: pointer;
+}
+.hamburger img {
+  display: none;
+}
+
+.invert {
+  filter: invert(1);
+}
+.close {
+  position: absolute;
+  width: 333px;
+  color: red;
+}
+@media screen and (max-width: 776px) {
+  .hamburger img {
+    display: block;
+    position: absolute;
+    top: 14px;
+    left: 6px;
+
+    width: 33px;
+  }
+
+  .nav1 ul {
+    display: none;
+  }
+
+  .cardsfirst {
+    margin: 10px;
+    flex-wrap: wrap;
+    gap: 38px;
+  }
+  .items {
+    flex-direction: column;
+  }
+  ul.firstlist {
+    /* text-align: center; */
+    width: 100%;
+    /* margin: auto; */
+    display: none;
+    /* margin: auto; */
+  }
+
+  element.style {
+  }
+  .logos {
+    flex-direction: column;
+    gap: 40px;
+    width: 279px;
+  }
+
+  .containerthird {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  section.sfirst h1 {
+    text-align: center;
+  }
+  section.sfirst p {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  .caredssecond {
+    width: 312px;
+  }
+  .ssecond h2 {
+    text-align: center;
+  }
+  .ssecond span {
+    text-align: center;
+  }
+  .containerthird .img img {
+    width: 372px;
+  }
+  section.sfourth h2 {
+    text-align: center;
+  }
+  section.sfourth p {
+    text-align: center;
+  }
+  .containerfourth {
+    grid-template-columns: 1fr;
+  }
+  section.sfifth h2 {
+    text-align: center;
+  }
+  .containerfifth {
+    text-align: center;
+    flex-direction: column;
+    line-height: 2.3rem;
+    width: 100vw;
+  }
+  section.ssix {
+    text-align: center;
+  }
+  .containersix {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .video video {
+    width: 366px;
+  }
+  .item1 button {
+    padding: 12px 20px;
+    cursor: pointer;
+    margin-bottom: 30px;
+  }
+  footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .item1 {
+    width: 73%;
+  }
+  section.sfifth p {
+    font-weight: 200;
+    font-size: 1.2rem;
+    width: 100%;
+    text-align: center;
+  }
+
+  .sixitems {
+    width: 100%;
+    font-size: 1.2rem;
+  }
+  .footerend {
+    font-size: 1rem;
+  }
+
+  .itemsfooter {
+    line-height: 2rem;
+    margin-top: 28px;
+    margin-left: 38px;
+  }
+  .footerend button {
+    padding: 1px 25px;
+    margin: 11px;
+  }
+
+  ul.secondlist {
+    gap: 30px;
+    margin: 0px 6px;
+    display: none;
+  }
+
+  ul.secondlist li button {
+    padding: 8px 12px;
+    width: 100px;
+    font-size: 16px;
+  }
+  ul.secondlist li .btn2 {
+    display: none;
+  }
+  nav img {
+    margin: 0px 45px;
+  }
+}
+nav img {
+  margin: 0px 45px;
+}
